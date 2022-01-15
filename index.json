@@ -794,7 +794,7 @@
     },
     {
       "fullPath": "presets/4.3/leds/lam4_leds.txt",
-      "hash": "a3ff2a59029ca48270a05c1e5638c61dc501f98e8566b7b793478d969e3fbcba",
+      "hash": "5805bfd7cceba893ee787a168af23c3120d16d67339ee0c57a057510c59536cc",
       "options": [
         {
           "name": "Mark4HD @ MAMBA F722",
@@ -802,7 +802,7 @@
         },
         {
           "name": "Crown HD",
-          "checked": true
+          "checked": false
         }
       ],
       "title": "LaM4 BF 4.3 LED settings",

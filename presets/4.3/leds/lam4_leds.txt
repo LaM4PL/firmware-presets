@@ -25,7 +25,7 @@ led 7 11,7::CO:2
 #$ OPTION END
 
 
-#$ OPTION BEGIN (CHECKED): Crown HD
+#$ OPTION BEGIN (UNCHECKED): Crown HD
 led 0 4,7::CO:2
 led 1 5,7::CO:2
 led 2 6,7::CO:2
