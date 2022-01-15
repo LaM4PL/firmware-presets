@@ -1,0 +1,33 @@
+#$ TITLE: LaM4 BF 4.3 LED settings
+#$ FIRMWARE_VERSION: 4.3
+#$ CATEGORY: LEDS
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: defaults, reset, leds
+#$ AUTHOR: LaM4
+#$ DESCRIPTION: Sets LaM4 BF 4.3 LED settings
+#$ DESCRIPTION: Options: 
+#$ DESCRIPTION: Mark4HD @ MAMBA F722
+#$ DESCRIPTION: Crown HD
+#$ DESCRIPTION: Beta FPV
+
+#$ INCLUDE: presets/4.3/leds/defaults.txt
+
+
+#$ OPTION BEGIN (CHECKED): Mark4HD @ MAMBA F722
+led 0 4,7::CO:2
+led 1 5,7::CO:2
+led 2 6,7::CO:2
+led 3 7,7::CO:2
+led 4 8,7::CO:2
+led 5 9,7::CO:2
+led 6 10,7::CO:2
+led 7 11,7::CO:2
+#$ OPTION END
+
+
+#$ OPTION BEGIN (CHECKED): Crown HD
+led 0 4,7::CO:2
+led 1 5,7::CO:2
+led 2 6,7::CO:2
+led 3 7,7::CO:2
+#$ OPTION END
