@@ -1435,7 +1435,7 @@
     },
     {
       "fullPath": "presets/4.3/rates/LaM4.txt",
-      "hash": "ca236989c6d47ed60994c79f0fe9fd65deedd97e188673ab3334a4fa443af9ba",
+      "hash": "b0d9d926816c67700ac2cc60db8c687e662af22693dfb799c27ed68440fd7ade",
       "options": [],
       "title": "LaM4 rates",
       "firmware_version": [
@@ -1449,7 +1449,7 @@
       ],
       "author": "LaM4",
       "description": [
-        "Freestyle rates with 907 deg/sec for roll/pitch and 800 deg/sec for yaw. Relatively smooth around the sticks middle."
+        "Freestyle rates with 800 deg/sec for all axies."
       ],
       "include": [
         "presets/4.3/rates/defaults.txt"
