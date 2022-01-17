@@ -165,6 +165,7 @@
       "bardwell",
       "basic",
       "betaflight",
+      "betafpv",
       "blackbox",
       "BMI270",
       "BMSThomas",
@@ -178,6 +179,7 @@
       "clear",
       "control",
       "crossfire",
+      "crown hd",
       "CRSF",
       "ctzsnooze",
       "CTZsoonze",
@@ -204,6 +206,7 @@
       "freestyle_HD",
       "freesytle",
       "frsky",
+      "geprc",
       "ghost",
       "GHST",
       "GPS",
@@ -224,6 +227,7 @@
       "justice",
       "karate",
       "KarateBrot",
+      "lam4",
       "launch",
       "launch_mode",
       "leds",
@@ -233,6 +237,7 @@
       "logging",
       "longrange",
       "mamba",
+      "mark4",
       "meteor",
       "MinChan",
       "mode",
@@ -794,7 +799,7 @@
     },
     {
       "fullPath": "presets/4.3/leds/lam4_leds.txt",
-      "hash": "5805bfd7cceba893ee787a168af23c3120d16d67339ee0c57a057510c59536cc",
+      "hash": "1e86831d44ba1d51a3e2b28812b5c0d87d2c1a7d5f8505b93ecf5e7bb3020666",
       "options": [
         {
           "name": "Mark4HD @ MAMBA F722",
@@ -802,6 +807,10 @@
         },
         {
           "name": "Crown HD",
+          "checked": false
+        },
+        {
+          "name": "Beta FPV",
           "checked": false
         }
       ],
@@ -812,9 +821,11 @@
       "category": "LEDS",
       "status": "COMMUNITY",
       "keywords": [
-        "defaults",
-        "reset",
-        "leds"
+        "leds",
+        "geprc",
+        "crown hd",
+        "mark4",
+        "betafpv"
       ],
       "author": "LaM4",
       "description": [
@@ -853,6 +864,31 @@
       ]
     },
     {
+      "fullPath": "presets/4.3/modes/lam4_defaults.txt",
+      "hash": "3deb45282db0eaac477c6cc2812d835b6240642c8ba37b0cd1a75e1c5e0eb94e",
+      "options": [],
+      "title": "LaM4 4.3 modes",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "MODES",
+      "status": "COMMUNITY",
+      "keywords": [
+        "modes",
+        "geprc",
+        "crown hd",
+        "mark4",
+        "betafpv"
+      ],
+      "author": "LaM4",
+      "description": [
+        "Sets LaM4 BF 4.3 modes"
+      ],
+      "include": [
+        "presets/4.3/modes/defaults.txt"
+      ]
+    },
+    {
       "fullPath": "presets/4.3/osd/defaults.txt",
       "hash": "36eb8ae097d0362030b297477c971280aad5562ac512a3f7ffa91949ed56db82",
       "options": [],
@@ -870,6 +906,43 @@
       "author": "Betaflight",
       "description": [
         "Resets the OSD values back to Betaflight 4.3 defaults"
+      ]
+    },
+    {
+      "fullPath": "presets/4.3/osd/lam4-defaults.txt",
+      "hash": "0d2f3711d3faadce4f6ba8f9caf71617c51a4ab43bd22f8fb9a4923627bca683",
+      "options": [
+        {
+          "name": "LaM4 default DJI",
+          "checked": true
+        },
+        {
+          "name": "LaM4 default analog",
+          "checked": false
+        }
+      ],
+      "title": "LaM4 4.3 OSD settings",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "OSD",
+      "status": "COMMUNITY",
+      "keywords": [
+        "osd",
+        "geprc",
+        "crown hd",
+        "mark4",
+        "betafpv"
+      ],
+      "author": "LaM4",
+      "description": [
+        "Sets LaM4 BF 4.3 OSD settings",
+        "Options:",
+        "LaM4 default DJI",
+        "LaM4 default analog"
+      ],
+      "include": [
+        "presets/4.3/osd/defaults.txt"
       ]
     },
     {
@@ -3565,7 +3638,7 @@
     },
     {
       "fullPath": "presets/4.3/vtx/rush_sa2.1_vtx_tables.txt",
-      "hash": "22aadeaaf187206e8e33fe426586de11dcfb1ea0ef3e56850ff9aabd37078b14",
+      "hash": "aac7f91fe3c0b0c45ccf0388d54ab92d337e3afe651c865a0d46f108189fff83",
       "options": [
         {
           "name": "48CH",
@@ -3603,7 +3676,8 @@
         "rushfpv",
         "tank ultimate",
         "tank solo",
-        "tiny tank"
+        "tiny tank",
+        "lam4"
       ],
       "author": "Directory",
       "description": [

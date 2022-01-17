@@ -2,7 +2,7 @@
 #$ FIRMWARE_VERSION: 4.3
 #$ CATEGORY: LEDS
 #$ STATUS: COMMUNITY
-#$ KEYWORDS: defaults, reset, leds
+#$ KEYWORDS: leds, geprc, crown hd, mark4, betafpv
 #$ AUTHOR: LaM4
 #$ DESCRIPTION: Sets LaM4 BF 4.3 LED settings
 #$ DESCRIPTION: Options: 
@@ -24,10 +24,20 @@ led 6 10,7::CO:2
 led 7 11,7::CO:2
 #$ OPTION END
 
-
 #$ OPTION BEGIN (UNCHECKED): Crown HD
 led 0 4,7::CO:2
 led 1 5,7::CO:2
 led 2 6,7::CO:2
 led 3 7,7::CO:2
+led 4 8,7::CO:6
+led 5 9,7::CO:6
+led 6 10,7::CO:6
+led 7 11,7::CO:6
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): Beta FPV
+led 0 0,0::AB:0
+led 1 1,0::AB:0
+led 2 2,0::L:0
+led 3 3,0::L:0
 #$ OPTION END
