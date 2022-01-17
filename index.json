@@ -2120,7 +2120,7 @@
     },
     {
       "fullPath": "presets/4.3/rc_link/TBS_freestyle.txt",
-      "hash": "b70388688488544417cfeb337382fcde5681952234883de064c5ff89bb3b9073",
+      "hash": "e7cca754086fbddee8aa04dacd50aab40bb2a1509f7a3b4df34f11d149a1afb9",
       "options": [
         {
           "name": "Tracer CFV2 for Open/EdgeTx radios",
@@ -2152,6 +2152,7 @@
       "keywords": [
         "rc link",
         "tracer",
+        "lam4",
         "TBS",
         "cfv2",
         "250Hz",
@@ -2159,8 +2160,7 @@
         "freestyle",
         "150Hz",
         "50Hz",
-        "CRSF",
-        "lam4"
+        "CRSF"
       ],
       "author": "sugarK",
       "description": [
