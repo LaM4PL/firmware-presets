@@ -910,11 +910,15 @@
     },
     {
       "fullPath": "presets/4.3/osd/lam4-defaults.txt",
-      "hash": "0d2f3711d3faadce4f6ba8f9caf71617c51a4ab43bd22f8fb9a4923627bca683",
+      "hash": "da03bde41cf5c656fc22dc8be7aaff70e1495381a0b1aa448372a7cc9566fbdb",
       "options": [
         {
           "name": "LaM4 default DJI",
           "checked": true
+        },
+        {
+          "name": "LaM4 DJI Mark4HD",
+          "checked": false
         },
         {
           "name": "LaM4 default analog",
