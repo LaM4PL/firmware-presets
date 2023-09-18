@@ -1,12 +1,10 @@
-#$ TITLE: LaM4 4.3 modes
-#$ FIRMWARE_VERSION: 4.3
+#$ TITLE: LaM4 4.4 modes
+#$ FIRMWARE_VERSION: 4.4
 #$ CATEGORY: MODES
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: modes, geprc, crown hd, mark4, betafpv
 #$ AUTHOR: LaM4
-#$ DESCRIPTION: Sets LaM4 BF 4.3 modes
-
-#$ INCLUDE: presets/4.3/modes/defaults.txt
+#$ DESCRIPTION: Sets LaM4 BF 4.4 modes
 
 # aux
 aux 0 0 0 1725 2100 0 0

@@ -1,14 +1,15 @@
-#$ TITLE: LaM4 BF 4.3 LED settings
-#$ FIRMWARE_VERSION: 4.3
+#$ TITLE: LaM4 BF 4.4 LED settings
+#$ FIRMWARE_VERSION: 4.4
 #$ CATEGORY: LEDS
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: leds, geprc, crown hd, mark4, betafpv
 #$ AUTHOR: LaM4
-#$ DESCRIPTION: Sets LaM4 BF 4.3 LED settings
+#$ DESCRIPTION: Sets LaM4 BF 4.4 LED settings
 #$ DESCRIPTION: Options: 
 #$ DESCRIPTION: Mark4HD @ MAMBA F722
 #$ DESCRIPTION: Crown HD
 #$ DESCRIPTION: Beta FPV
+
 
 #$ OPTION BEGIN (CHECKED): Mark4HD @ MAMBA F722
 led 0 4,7::CO:2

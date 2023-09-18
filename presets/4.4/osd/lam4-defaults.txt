@@ -1,15 +1,15 @@
-#$ TITLE: LaM4 4.3 OSD settings
-#$ FIRMWARE_VERSION: 4.3
+#$ TITLE: LaM4 4.4 OSD settings
+#$ FIRMWARE_VERSION: 4.4
 #$ CATEGORY: OSD
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: osd, geprc, crown hd, mark4, betafpv
 #$ AUTHOR: LaM4
-#$ DESCRIPTION: Sets LaM4 BF 4.3 OSD settings
+#$ DESCRIPTION: Sets LaM4 BF 4.4 OSD settings
 #$ DESCRIPTION: Options: 
 #$ DESCRIPTION: LaM4 default DJI
-#$ DESCRIPTION: LaM4 default analog
+#$ DESCRIPTION: LaM4 default analog - old
 
-#$ INCLUDE: presets/4.3/osd/defaults.txt
+#$ INCLUDE: presets/4.4/osd/defaults.txt
 
 #$ OPTION BEGIN (CHECKED): LaM4 default DJI
 set osd_warn_batt_not_full = OFF

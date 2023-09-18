@@ -3669,6 +3669,25 @@
       "priority": 1000000
     },
     {
+      "fullPath": "presets/4.4/leds/lam4_leds.txt",
+      "hash": "4730e9578dfe6092384a99c7e6a08f54b20b273942dd1613fe44d77da89e3d8f",
+      "title": "LaM4 BF 4.4 LED settings",
+      "firmware_version": [
+        "4.4"
+      ],
+      "category": "LEDS",
+      "status": "COMMUNITY",
+      "keywords": [
+        "leds",
+        "geprc",
+        "crown hd",
+        "mark4",
+        "betafpv"
+      ],
+      "author": "LaM4",
+      "priority": 0
+    },
+    {
       "fullPath": "presets/4.4/leds/quaddiction_tinytrainer.txt",
       "hash": "2b2bede40d142402b6c9c3b0bdeb996c0b2215761aab4e787eee8188118521b7",
       "title": "Quaddiction TinyTrainer LED settings",
@@ -3692,6 +3711,25 @@
       "priority": 0
     },
     {
+      "fullPath": "presets/4.4/modes/lam4_defaults.txt",
+      "hash": "f209d1f767fffe833f8713f82d07f0b10736f44d44075d7596501f6938455f44",
+      "title": "LaM4 4.4 modes",
+      "firmware_version": [
+        "4.4"
+      ],
+      "category": "MODES",
+      "status": "COMMUNITY",
+      "keywords": [
+        "modes",
+        "geprc",
+        "crown hd",
+        "mark4",
+        "betafpv"
+      ],
+      "author": "LaM4",
+      "priority": 0
+    },
+    {
       "fullPath": "presets/4.4/osd/defaults.txt",
       "hash": "d594f4691e29d05efc4b37995b2f218fbe31f930157c3499755753214fa87254",
       "title": "Default 4.4 OSD settings",
@@ -3706,6 +3744,25 @@
         "OSD"
       ],
       "author": "Betaflight",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.4/osd/lam4-defaults.txt",
+      "hash": "be89b5b24a74e422d00ed2550ef6a1dea6df4a9c3f1f88bf4cd7eaa0ba84a5f8",
+      "title": "LaM4 4.4 OSD settings",
+      "firmware_version": [
+        "4.4"
+      ],
+      "category": "OSD",
+      "status": "COMMUNITY",
+      "keywords": [
+        "osd",
+        "geprc",
+        "crown hd",
+        "mark4",
+        "betafpv"
+      ],
+      "author": "LaM4",
       "priority": 0
     },
     {
@@ -3804,6 +3861,22 @@
         "cinematic"
       ],
       "author": "Davide FPV (Davide Angeletti)",
+      "priority": 10000
+    },
+    {
+      "fullPath": "presets/4.4/rates/LaM4.txt",
+      "hash": "b5e1ecd7e885ea70035ddaf7a527e1fca20d1ef93587c9c502d3de450af3e777",
+      "title": "LaM4 rates",
+      "firmware_version": [
+        "4.4"
+      ],
+      "category": "RATES",
+      "status": "COMMUNITY",
+      "keywords": [
+        "lam4",
+        "rates"
+      ],
+      "author": "LaM4",
       "priority": 10000
     },
     {
@@ -4682,63 +4755,6 @@
       "priority": 1000000
     },
     {
-      "fullPath": "presets/4.5/leds/lam4_leds.txt",
-      "hash": "1e86831d44ba1d51a3e2b28812b5c0d87d2c1a7d5f8505b93ecf5e7bb3020666",
-      "title": "LaM4 BF 4.3 LED settings",
-      "firmware_version": [
-        "4.3"
-      ],
-      "category": "LEDS",
-      "status": "COMMUNITY",
-      "keywords": [
-        "leds",
-        "geprc",
-        "crown hd",
-        "mark4",
-        "betafpv"
-      ],
-      "author": "LaM4",
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/4.5/modes/lam4_defaults.txt",
-      "hash": "3deb45282db0eaac477c6cc2812d835b6240642c8ba37b0cd1a75e1c5e0eb94e",
-      "title": "LaM4 4.3 modes",
-      "firmware_version": [
-        "4.3"
-      ],
-      "category": "MODES",
-      "status": "COMMUNITY",
-      "keywords": [
-        "modes",
-        "geprc",
-        "crown hd",
-        "mark4",
-        "betafpv"
-      ],
-      "author": "LaM4",
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/4.5/osd/lam4-defaults.txt",
-      "hash": "da03bde41cf5c656fc22dc8be7aaff70e1495381a0b1aa448372a7cc9566fbdb",
-      "title": "LaM4 4.3 OSD settings",
-      "firmware_version": [
-        "4.3"
-      ],
-      "category": "OSD",
-      "status": "COMMUNITY",
-      "keywords": [
-        "osd",
-        "geprc",
-        "crown hd",
-        "mark4",
-        "betafpv"
-      ],
-      "author": "LaM4",
-      "priority": 0
-    },
-    {
       "fullPath": "presets/4.5/other/custom_nmea.txt",
       "hash": "10931aba011ca232171d37cdacdc287d5f261a8de12bb2f75bb9eef3f9c7b3bc",
       "title": "Custom NMEA commands",
@@ -4771,22 +4787,6 @@
       ],
       "author": "Betaflight",
       "priority": 0
-    },
-    {
-      "fullPath": "presets/4.5/rates/LaM4.txt",
-      "hash": "b0d9d926816c67700ac2cc60db8c687e662af22693dfb799c27ed68440fd7ade",
-      "title": "LaM4 rates",
-      "firmware_version": [
-        "4.3"
-      ],
-      "category": "RATES",
-      "status": "COMMUNITY",
-      "keywords": [
-        "lam4",
-        "rates"
-      ],
-      "author": "LaM4",
-      "priority": 10000
     },
     {
       "fullPath": "presets/4.5/tune/defaults.txt",
