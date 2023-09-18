@@ -1,0 +1,93 @@
+#$ TITLE: LaM4 4.5 mark4HD@mamba
+#$ FIRMWARE_VERSION: 4.5
+#$ CATEGORY: OTHER
+#$ KEYWORDS: geprc, crown hd, mark4, lam4
+#$ AUTHOR: LaM4
+#$ DESCRIPTION: Sets LaM4 BF 4.5 mark4HD@mamba
+
+# name: Mark4 HD
+
+# feature
+feature -AIRMODE
+feature TELEMETRY
+feature LED_STRIP
+feature OSD
+
+# serial
+serial 0 64 115200 57600 0 115200
+serial 1 131073 115200 57600 0 115200
+serial 3 1 115200 57600 0 115200
+
+# beeper
+beeper -ARMING_GPS_FIX
+beeper -GPS_STATUS
+beeper -ON_USB
+beeper -CAM_CONNECTION_OPEN
+beeper -CAM_CONNECTION_CLOSE
+
+# led
+led 0 4,7::CO:2
+led 1 5,7::CO:2
+led 2 6,7::CO:2
+led 3 7,7::CO:2
+led 4 8,7::CO:2
+led 5 9,7::CO:2
+led 6 10,7::CO:2
+led 7 11,7::CO:2
+
+# aux
+aux 0 0 0 1725 2100 0 0
+aux 1 1 1 900 1300 0 0
+aux 2 2 1 1300 1700 0 0
+aux 3 13 2 900 1300 0 0
+aux 4 28 2 1700 2100 1 0
+aux 5 28 0 1700 2100 1 0
+aux 6 35 2 900 1300 0 0
+
+# master
+set dyn_notch_count = 1
+set dyn_notch_q = 500
+set acc_trim_roll = 2
+set acc_calibration = -59,48,51,1
+set baro_hardware = NONE
+set fpv_mix_degrees = 15
+set serialrx_provider = CRSF
+set dshot_bidir = ON
+set ibata_scale = 115
+set small_angle = 20
+set osd_warn_bitmask = 8189
+set osd_cap_alarm = 1100
+set osd_vbat_pos = 2304
+set osd_rssi_pos = 2067
+set osd_link_quality_pos = 2071
+set osd_link_tx_power_pos = 2103
+set osd_tim_2_pos = 2208
+set osd_vtx_channel_pos = 20
+set osd_current_pos = 2432
+set osd_mah_drawn_pos = 384
+set osd_craft_name_pos = 2080
+set osd_pilot_name_pos = 2048
+set osd_power_pos = 2400
+set osd_warnings_pos = 2406
+set osd_avg_cell_voltage_pos = 2336
+set osd_battery_usage_pos = 2368
+set osd_disarmed_pos = 2445
+set osd_esc_tmp_pos = 111
+set osd_esc_rpm_pos = 11
+set osd_stat_bitmask = 16779112
+set osd_displayport_device = MSP
+set osd_canvas_width = 30
+set osd_canvas_height = 13
+set vcd_video_system = HD
+set craft_name = Mark4 HD
+set pilot_name = LaM4
+
+profile 0
+
+rateprofile 0
+
+# rateprofile 0
+set thr_expo = 25
+set roll_srate = 80
+set pitch_srate = 80
+set yaw_srate = 80
