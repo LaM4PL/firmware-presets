@@ -10,9 +10,6 @@
 #$ DESCRIPTION: Crown HD
 #$ DESCRIPTION: Beta FPV
 
-#$ INCLUDE: presets/4.3/leds/defaults.txt
-
-
 #$ OPTION BEGIN (CHECKED): Mark4HD @ MAMBA F722
 led 0 4,7::CO:2
 led 1 5,7::CO:2
