@@ -1,6 +1,7 @@
 #$ TITLE: LaM4 4.5 mark4HD@mamba
 #$ FIRMWARE_VERSION: 4.5
 #$ CATEGORY: OTHER
+#$ STATUS: COMMUNITY
 #$ KEYWORDS: geprc, crown hd, mark4, lam4
 #$ AUTHOR: LaM4
 #$ DESCRIPTION: Sets LaM4 BF 4.5 mark4HD@mamba
