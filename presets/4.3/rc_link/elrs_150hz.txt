@@ -1,6 +1,7 @@
 #$ TITLE: ExpressLRS 150Hz
 #$ FIRMWARE_VERSION: 4.3
 #$ FIRMWARE_VERSION: 4.4
+#$ FIRMWARE_VERSION: 4.5
 #$ CATEGORY: RC_LINK
 #$ STATUS: OFFICIAL
 #$ KEYWORDS: ELRS, express, 150Hz, rc, rx, link, smoothing
@@ -13,10 +14,6 @@
 #$ FORCE_OPTIONS_REVIEW: TRUE
 
 #$ INCLUDE: presets/4.3/rc_link/defaults.txt
-
-# basic requirements for ExpressLRS 
-feature RX_SERIAL
-set serialrx_provider = CRSF
 
 # 150hz default settings in case no tuning option is selected
 set feedforward_averaging = OFF
@@ -72,13 +69,14 @@ set rc_smoothing_throttle_cutoff = 20
 #$ OPTION_GROUP END
 
 
-#$ OPTION_GROUP BEGIN: ELRS Rx connection method (choose one):
+#$ OPTION_GROUP BEGIN: (EXCLUSIVE) ELRS Rx connection method (choose one):
 
 #$ OPTION BEGIN (UNCHECKED): Serial, separate Rx
+feature RX_SERIAL
+set serialrx_provider = CRSF
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): SPI, on the FC
-feature -RX_SERIAL
 feature RX_SPI
 set rx_spi_protocol = EXPRESSLRS
 #$ OPTION END
@@ -86,7 +84,7 @@ set rx_spi_protocol = EXPRESSLRS
 #$ OPTION_GROUP END
 
 
-#$ OPTION_GROUP BEGIN: Voltage readings (choose one):
+#$ OPTION_GROUP BEGIN: (EXCLUSIVE) Voltage readings (choose one):
 
 # per cell or whole pack voltage readings:
 #$ OPTION BEGIN (UNCHECKED): Single Cell values
@@ -116,4 +114,3 @@ set yaw_srate = 50
 #$ OPTION END
 
 #$ OPTION_GROUP END
-
