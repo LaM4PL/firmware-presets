@@ -1,0 +1,47 @@
+#$ TITLE: LaM4 - DJI with GPS
+#$ FIRMWARE_VERSION: 2025.12
+#$ CATEGORY: OSD
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: DJI, GPS
+#$ AUTHOR: LaM4
+
+#$ DESCRIPTION: 
+#$ DESCRIPTION: Information:
+#$ DESCRIPTION: -----------
+#$ DESCRIPTION: General DJI **with GPS** OSD setup.  Make sure to have Custom OSD enabled in your DJI Goggles for Betaflight elements to display.
+#$ DESCRIPTION: 
+#$ DESCRIPTION: OSD Elements Include:
+#$ DESCRIPTION: -----------
+#$ DESCRIPTION: Vbat, Amps, mAh drawn, Armed Time, Time Remaining, VTX Channel, VTX Power, Uplink Power, RSSI, etc...
+
+set osd_warn_bitmask = 8189
+set osd_rssi_dbm_alarm = -102
+set osd_cap_alarm = 1100
+set osd_vbat_pos = 2304
+set osd_rssi_pos = 96
+set osd_link_quality_pos = 2080
+set osd_link_tx_power_pos = 2112
+set osd_tim_2_pos = 2272
+set osd_flymode_pos = 2058
+set osd_throttle_pos = 2400
+set osd_vtx_channel_pos = 20
+set osd_ah_pos = 2394
+set osd_current_pos = 512
+set osd_mah_drawn_pos = 2528
+set osd_craft_name_pos = 2048
+set osd_pilot_name_pos = 0
+set osd_gps_speed_pos = 2496
+set osd_gps_sats_pos = 3086
+set osd_home_dir_pos = 2106
+set osd_home_dist_pos = 3118
+set osd_flight_dist_pos = 2464
+set osd_compass_bar_pos = 2070
+set osd_power_pos = 480
+set osd_warnings_pos = 2675
+set osd_avg_cell_voltage_pos = 2336
+set osd_battery_usage_pos = 608
+set osd_disarmed_pos = 2647
+set osd_esc_tmp_pos = 111
+set osd_esc_rpm_pos = 11
+set osd_stat_bitmask = 16779112
+
